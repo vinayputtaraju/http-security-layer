@@ -1,4 +1,4 @@
-### Spring Boot application config enable mTls config
+### Spring Boot application config enable mTLS config
 
 ```yaml
 server:
