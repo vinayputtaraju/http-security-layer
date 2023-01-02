@@ -5,5 +5,8 @@ server:
     key-store-type: "JKS"
     key-password: "password"
     key-alias: "server"
-    enabled: true
+    client-auth: need
+    trust-store-type: "JKS"
+    trust-store: "classpath:keystores/truststore.jks"
+    trust-store-password: "password"
   port: 443
